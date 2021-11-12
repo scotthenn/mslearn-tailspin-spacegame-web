@@ -58,5 +58,5 @@ steps:
     displayName: 'Publish Artifact: drop'
     condition: succeeded()
 
-  - script: 'echo "Build Completed"'
+  - script: 'echo "Build Just Completed"'
     displayName: 'Confirmation'
