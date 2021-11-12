@@ -59,3 +59,4 @@ steps:
     condition: succeeded()
 
   - script: 'echo "Build Completed"'
+    displayName: 'Confirmation'
